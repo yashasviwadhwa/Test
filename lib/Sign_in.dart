@@ -48,7 +48,7 @@ class _SignInScreenState extends State<SignInScreen> {
           child: SingleChildScrollView(
             child: Padding(
               padding: EdgeInsets.fromLTRB(
-                  20, MediaQuery.of(context).size.height * 0.2, 20, 0),
+                  10, MediaQuery.of(context).size.height * 0.2, 20, 0),
               child: Form(
                 key: formkey,
                 child: Column(
@@ -117,7 +117,7 @@ class _SignInScreenState extends State<SignInScreen> {
         ),
       ),
     );
-  }
+  } 
 
   Row signUpOption() {
     return Row(

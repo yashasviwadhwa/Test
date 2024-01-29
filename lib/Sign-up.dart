@@ -53,7 +53,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 key: _formKey,
                 child: Column(
                   children: <Widget>[
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 10),
                     reusableTextField(
                       label: "Enter UserName",
                       icon: Icons.person_outline,
